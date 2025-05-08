@@ -1,11 +1,11 @@
 # DIPlom
 
 ## Установка зависимостей
-```bash
 pip install -r requirements.txt
 python -m spacy download ru_core_news_sm
 
-## На всякий случай:
+
+# На всякий случай:
 
 !pip install razdel
 !pip install torch
@@ -17,15 +17,15 @@ python -m spacy download ru_core_news_sm
 !pip install -U spacy
 !python -m spacy download ru_core_news_sm
 
-## Структура проекта
+# Структура проекта
 
 my_project/
 ├── data/                       # исходный датасет
 │   └── df.csv
 ├── fonts/                      # шрифты DejaVu для отчёта
 │   ├── DejaVuSans.ttf
-│   ├── DejaVuSans-Bold.ttf
-│   └── DejaVuSans-Oblique.ttf
+│   ├── DejaVuSansBold.ttf
+│   └── DejaVuSansOblique.ttf
 ├── modules/                    # модули с классами
 │   ├── preprocessing.py        # класс Preprocessor
 │   ├── analysis.py             # класс Analyzer
