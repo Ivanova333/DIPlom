@@ -1,0 +1,10 @@
+razdel
+emoji
+torch
+transformers
+matplotlib
+scipy
+pandas
+fpdf
+spacy
+ru_core_news_sm
